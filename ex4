@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+
+print"借金の総額を入力してください."
+total = input()
+print"一月に返済する金額を入力してください."
+repay = input()
+
+comp1 = -(-total // (repay*12))  #切り上げ除算
+
+print"返済には%d年かかります." % comp1
+
+print"毎年のボーナスから返済する金額を入力してください."
+bonus = input()
+
+comp2 = -(-total // ((repay*12)+bonus))
+
+move = comp1-comp2
+
+print"返済完了が%d年早まります." % move
+
+print"返済を完了したい年数を入力してください."
+
+year = input()
+
+comp3 = (total -  (repay * 12 * (comp1-year))) / (comp1 - year)
+print"毎年のボーナスから%d返せば可能です." % comp3
