@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+while 1:
+    print"数値を入力してください.(0で終了)"
+    num = input()
+    if num == 0:
+        break
+    elif num%7==0:
+        print"7の倍数です."
+    else:
+        print"7の倍数ではありません."
