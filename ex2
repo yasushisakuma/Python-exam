@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+
+print"10個の数値を入力してください."
+a = [input() for i in range(10)]
+b = sum(a)
+print"その合計は%dです." % b
