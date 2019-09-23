@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+num = 0
+
+a = [input() for i in range(10)]
+
+if 5 not in a:
+    print"Boo"
+
+for i in a:
+    if i < 0:
+        num += 1
+
+if num > 0:
+    print"負の数が含まれています."
