@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+print"数値を入力してください."
+
+x = input()
+
+if x + 25000 == 3500 * 9:
+    print"OK"
+else:
+    print"Boo"
