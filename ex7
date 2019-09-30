@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+print u"名前と年齢を入力してください."
+
+name = raw_input(u"名前：".encode("shift_jis"))
+
+age = input(u"年齢：".encode("shift_jis"))
+
+num = (100-age)+2019
+
+print u"100歳になるのは%d年です.(2019年現在)"% num
