@@ -1,0 +1,6 @@
+print("文字列を数値に変換します.")
+num = input()
+num1 = float(num)
+num2 = int(num1)
+print("float型：%f" %num1)
+print("int型：%d" %num2)
